@@ -73,8 +73,8 @@ module Charwidth
           before << Characters::HALFWIDTH_SYMBOL_VARIANTS
           after << Characters::MATHEMATICAL_SYMBOLS
         when :space
-          before << Characters::IDEOGRAPHIC_SPACE
-          after << Characters::SPACE
+          before << Characters::SPACE
+          after << Characters::IDEOGRAPHIC_SPACE
         end
       end
 
